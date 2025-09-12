@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--background-color, hsl(0, 0%, 100%));
+  color: var(--text-color, rgba(255,255,255,0.87));
+}
+
+.center-box {
+  width: 450px;
+  background-color: #1a1a1a; /* dark mode box background */
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 3px;
+}
+
+.calendar-cell {
+  aspect-ratio: 1/1;
+  border: 1px solid #646cff; /* χρώμα που φαίνεται και στο dark mode */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.calendar-cell.selected {
+  background-color: #535bf2;
+  color: #ffffff;
+}
+
+.event-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #646cff;
+}
