@@ -161,23 +161,6 @@ button.add-btn:hover {
   background-color: #1e7e34;
 }
 
-/* Notepad */
-.notepad-page textarea {
-  width: 100%;
-  height: 320px;
-  padding: 12px;
-  font-size: 16px;
-  border-radius: 6px;
-  border: 1px solid #ccc;
-  resize: vertical;
-  background-color: var(--box-bg);
-  color: var(--text-color);
-}
 
-.evaluation-message {
-  color: red !important;
-  font-weight: bold;
-  margin-top: 1rem;
-}
 
 
