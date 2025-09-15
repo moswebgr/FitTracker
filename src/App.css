@@ -174,4 +174,10 @@ button.add-btn:hover {
   color: var(--text-color);
 }
 
+.evaluation-message {
+  color: red !important;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
 
