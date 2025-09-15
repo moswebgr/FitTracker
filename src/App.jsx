@@ -100,9 +100,9 @@ function FitnessTracker() {
       <div style={{ marginTop: "2rem", textAlign: "center" }}>
         <button onClick={evaluateDay} style={{ padding: "0.5rem 1rem" }}>Αξιολόγηση Ημέρας</button>
         {evaluation && (
-          <p style={{ marginTop: "1rem", fontWeight: "bold", color: evaluation.startsWith("Error") ? "red" : "red" }}>
-            {evaluation}
-          </p>
+         <p style={{ marginTop: "1rem", fontWeight: "bold", color: "red" }}>
+  {evaluation}
+</p>
         )}
       </div>
     </div>
