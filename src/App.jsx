@@ -79,7 +79,7 @@ function FitnessTracker() {
               <button onClick={() => handleDeleteActivity(activity)} style={{ marginLeft: "1rem" }}>X</button>
             </>
           ) : (
-            <em style={{ color: "#666" }}>Δεν χρειάζεται επιλογή</em>
+            <em style={{ color: "#fff" }}>Δεν χρειάζεται επιλογή</em>
           )}
         </div>
       ))}
